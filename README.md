@@ -1,21 +1,21 @@
 #Nats go cli client
 
-##Usage
+## Usage ##
 
-###Subscribing
+### Subscribing ###
 
 queueGroup is optional
 ```
     ./natsCli -host http://localhost:4222 -type subscribe -topic MyTopic -queueGroup MyQueue
 ```
 
-###Publishing
+### Publishing ###
 ```
     ./natsCli -host http://localhost:4222 -type publish -topic MyTopic -data MyData
 ```
 
 
-##Building
+## Building ##
 ```
     go build -o natsCli natsCli.go
 ```
