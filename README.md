@@ -17,5 +17,6 @@ queueGroup is optional
 
 ## Building ##
 ```
+    go get github.com/nats-io/nats
     go build -o natsCli natsCli.go
 ```
